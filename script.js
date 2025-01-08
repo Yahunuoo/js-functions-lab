@@ -5,3 +5,5 @@ const maxOfTwoNumbers = (x, y) => {
         return y;
     }
 }
+
+console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
