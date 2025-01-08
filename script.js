@@ -14,7 +14,7 @@ const isAdult = function (age){
     if (age > '20') {
         return isAdult;
 
-    }else {
+    }else if (age < '21'){
         return 'Minor';
     }
     
