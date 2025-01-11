@@ -10,7 +10,7 @@ console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
 
 
 const isAdult = function (age){
-    if (age > '21') {
+    if (age > '20') {
         return 'adult';
 
     }else if (age < '21'){
