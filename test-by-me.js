@@ -5,7 +5,6 @@ for (a=0; a<5; a++){
 //while
 i=0
 while (i < 10) {
- 
   i++;
   console.log(i)
 }
