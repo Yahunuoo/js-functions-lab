@@ -19,3 +19,20 @@ const isAdult = function (age){
     
 }
 console.log('Exercise 2 Result:', isAdult(21));
+
+
+function isCharAVowel(x){
+    if(x === 'a'){
+        return true
+    }else if (x === 'e'){
+        return true
+    }else{ 
+        return false
+    }
+
+}
+
+console.log('Exercise 3 Result:', isCharAVowel('i'));
+
+
+
