@@ -41,11 +41,11 @@ console.log('Exercise 3 Result:', isCharAVowel('i'));
 
 
 
-function generateEmail_2(name, domin){
+function generateEmail(name, domin){
     let sum = name + domin;
     return sum
 }
-console.log('Exercise 4 Result:', generateEmail_2("johnsmith", "@example.com"));
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "@example.com"));
 
 
 
@@ -55,3 +55,20 @@ function greetUser(name, time){
 }
 
 console.log('Exercise 5 Result:', greetUser("Good morning, ", "Sam"));
+
+/*
+Exercise 6: maxOfThree()
+
+Define a function, maxOfThree. It should accept three numbers 
+and return the largest among them.
+
+Example: maxOfThree(17, 4, 9) should return 17.
+
+Complete the exercise in the space below:
+*/
+function maxOfThree (x, y, b){ 
+    
+}
+
+
+console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
