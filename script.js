@@ -26,13 +26,32 @@ function isCharAVowel(x){
         return true
     }else if (x === 'e'){
         return true
-    }else{ 
-        return false
+    }else if(x === 'i'){
+        return true
+    }else if(x === 'o'){
+        return true
+    }else if(x === 'u'){
+        return true
+    }else {
+        false
     }
 
 }
-
 console.log('Exercise 3 Result:', isCharAVowel('i'));
 
 
+
+/*
+const generateEmail=(name, domain) => {
+    const email = name + domain;
+    return email;
+}
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "@example.com"));
+*/
+
+function generateEmail(name, domin){
+    let sum = name + domin;
+    return sum
+}
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "@example.com"));
 
